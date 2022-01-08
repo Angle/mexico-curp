@@ -1,0 +1,55 @@
+{
+  "name": "anglemx/mexico-curp",
+  "description": "PHP utility to handle Mexico's RENAPO (Registro Nacional de Población) CURP (Clave Única de Registro de Población)",
+  "type": "git",
+  "keywords": [
+    "angle",
+    "mexico",
+    "renapo",
+    "curp"
+  ],
+  "homepage": "https://github.com/Angle/mexico-curp",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edmundo Fuentes",
+      "email": "me@edmundofuentes.com",
+      "homepage": "http://www.edmundofuentes.com",
+      "role": "creator,manager,architect,developer"
+    },
+    {
+      "name": "Alejandro Hernández Guerrero",
+      "email": "me@alexhdz.com",
+      "homepage": "http://www.alexhdz.com",
+      "role": "creator,manager,architect,developer"
+    },
+    {
+      "name": "Angle Consulting",
+      "email": "email@angle.mx",
+      "homepage": "http://www.angle.mx",
+      "role": "owner"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "ext-bcmath": "*",
+    "ext-intl": "*",
+    "ext-mbstring": "*"
+  },
+  "suggest": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Angle\\Mexico\\CURP\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Angle\\Mexico\\CURP\\Tests\\": "tests"
+    }
+  }
+}
